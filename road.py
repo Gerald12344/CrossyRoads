@@ -26,4 +26,7 @@ class Road:
                      (0, 99 + (y - self.number), 400, 2))
 
     self.enemyCar.moveLeft(dt * self.speed)
+    
     self.enemyCar.rect.y = y - self.number + 25
+
+    self.enemyCar.draw(screen)
