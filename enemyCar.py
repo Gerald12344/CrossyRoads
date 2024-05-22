@@ -2,6 +2,7 @@ import pygame
 
 WHITE = (255, 255, 255)
 
+car = pygame.image.load("bc.png")
 
 
 # This is the class
